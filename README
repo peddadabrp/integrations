@@ -2,8 +2,6 @@ Simple Maven Projects
 ---------------------
 
 This repository contains two small Maven projects intended as examples of how a Maven projects can be setup. They were created to be used in a presentation about Maven.
-<<<<<<< HEAD
 ##sample testing commit
-=======
 
->>>>>>> 3167ff6068038993a1d67121a635fd77950f94f7
+
