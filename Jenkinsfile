@@ -2,9 +2,11 @@ node ('linux'){
    wrap([$class: 'TimestamperBuildWrapper']) {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
+      
+      checkout scm
 
    // Get some code from a GitHub repository
-   git url: 'https://github.com/InfostretchRajendra/awesome-git-folder.git'
+   //git url: 'https://github.com/InfostretchRajendra/awesome-git-folder.git'
    sh "echo SCM clone succcessful"
 
    // Get the maven tool.
